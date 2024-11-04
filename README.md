@@ -59,12 +59,12 @@ To display the Braze email HTML content on the Contact record, we need to create
 Create the following files in your Salesforce org:
 
 1. **Lightning Component** (`BrazeEmailPreview.cmp`):
- - Located in: `force-app/main/default/aura/BrazeEmailPreview/`
+ - Located in: `BrazeEmailPreview/`
  - Displays the HTML content of the Braze email in a formatted view
  - Uses `lightning:formattedRichText` to safely render HTML content
 
 2. **Component Controller** (`BrazeEmailPreviewController.js`):
- - Located in: `force-app/main/default/aura/BrazeEmailPreview/`
+ - Located in: `BrazeEmailPreview/`
  - Handles the record data changes
  - Updates the HTML preview when a record is loaded
 
@@ -114,6 +114,15 @@ Create the following files in your Salesforce org:
 - If no HTML content is available, it displays a "No HTML content available" message
 - The content is displayed in a Lightning card with a formatted view
 
-
+### Live Demo Example
+<!DOCTYPE html>
+<html>
+<body>
+  
+<iframe src="https://drive.google.com/file/d/1M7VMFUsrMeNVcyq_vL4soGbqBYsj4B3m/preview" width="640" height="480" allow="autoplay"></iframe>  
+  <!--aloow full screen add tag -->
+  
+</body>
+</html>
 ## Key Considerations
 - Storage in Salesforce can be quite costly. You can set up a hook to fetch the singular message copy upon click in the Lightning component from your Cloud Storage bucket.
