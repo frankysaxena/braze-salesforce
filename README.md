@@ -4,6 +4,9 @@ This is a guide on how Emails (and generally Push/SMS) channels sent via Braze c
 
 ![Braze -> S3 -> Salesforce](https://braze-images.com/appboy/communication/assets/image_assets/images/67292b90b4326e006374015f/original.png?1730751376)
 
+### Live Demo
+[![MessageArchivingDemo](https://braze-images.com/appboy/communication/assets/image_assets/images/67295963d5cc8b0063c2ff8f/original.png?1730763105)](https://drive.google.com/file/d/1M7VMFUsrMeNVcyq_vL4soGbqBYsj4B3m/preview)
+
 ## Message Archiving
 [Message Archiving](https://www.braze.com/docs/user_guide/data_and_analytics/export_braze_data/message_archiving) is a Braze feature that saves a copy of messages sent to users for archival or compliance purposes to your AWS S3 bucket, Azure Blob Storage container or Google Cloud Storage bucket. It can also be used to retrieve personalized copies of messages for Sales/Support team members.
 
@@ -113,10 +116,6 @@ Create the following files in your Salesforce org:
 - It safely renders the HTML content stored in the `HTML__c` field
 - If no HTML content is available, it displays a "No HTML content available" message
 - The content is displayed in a Lightning card with a formatted view
-
-### Live Demo Example
-[![MessageArchivingDemo](https://braze-images.com/appboy/communication/assets/image_assets/images/67295963d5cc8b0063c2ff8f/original.png?1730763105)](https://drive.google.com/file/d/1M7VMFUsrMeNVcyq_vL4soGbqBYsj4B3m/preview)
-
 
 ## Key Considerations
 - Storage in Salesforce can be quite costly. You can set up a hook to fetch the singular message copy upon click in the Lightning component from your Cloud Storage bucket.
