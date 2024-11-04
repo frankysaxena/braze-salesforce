@@ -124,5 +124,6 @@ Create the following files in your Salesforce org:
   
 </body>
 </html>
+
 ## Key Considerations
 - Storage in Salesforce can be quite costly. You can set up a hook to fetch the singular message copy upon click in the Lightning component from your Cloud Storage bucket.
