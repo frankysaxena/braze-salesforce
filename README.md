@@ -31,7 +31,7 @@ For this example, we have used Amazon S3 as a destination from Braze. The gzippe
 
 3. (Optional) You can also create a test event to see if the function executes and runs successfully (i.e. Salesforce Contact object gets updated with the latest Email object).
 
-[S3BucketExample](https://braze-images.com/appboy/communication/assets/image_assets/images/6729330926f8e900706b25ef/original.png?1730753289)
+![S3BucketExample](https://braze-images.com/appboy/communication/assets/image_assets/images/6729330926f8e900706b25ef/original.png?1730753289)
 
 
 
