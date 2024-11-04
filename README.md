@@ -115,15 +115,8 @@ Create the following files in your Salesforce org:
 - The content is displayed in a Lightning card with a formatted view
 
 ### Live Demo Example
-<!DOCTYPE html>
-<html>
-<body>
-  
-<iframe src="https://drive.google.com/file/d/1M7VMFUsrMeNVcyq_vL4soGbqBYsj4B3m/preview" width="640" height="480" allow="autoplay"></iframe>  
-  <!--aloow full screen add tag -->
-  
-</body>
-</html>
+[![MessageArchivingDemo](https://braze-images.com/appboy/communication/assets/image_assets/images/67295963d5cc8b0063c2ff8f/original.png?1730763105)](https://drive.google.com/file/d/1M7VMFUsrMeNVcyq_vL4soGbqBYsj4B3m/preview)
+
 
 ## Key Considerations
 - Storage in Salesforce can be quite costly. You can set up a hook to fetch the singular message copy upon click in the Lightning component from your Cloud Storage bucket.
